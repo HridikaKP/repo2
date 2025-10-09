@@ -1,0 +1,7 @@
+with open("students.csv", "w") as file:
+    file.write("Name,Age,Course\n")      
+    file.write("Hridika,22,Data Science\n")
+    file.write("Aarav,23,AI\n")
+    file.write("Neha,21,Machine Learning\n")
+
+print("students.csv file created successfully!")
